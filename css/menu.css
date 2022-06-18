@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.btn-menu {
+    display: block;
+    padding: 30px;
+    background: #0d2c44;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btn-menu .icono {
+    float: right;
+    padding-right: 10px;
+}
+
+.contenedor-menu {
+    width: 100%;
+    min-width: 300px;
+}
+
+.contenedor-menu .menu {
+    width: 100%;
+    display: none;
+}
+
+.contenedor-menu ul {
+    list-style: none;
+}
+
+.contenedor-menu .menu li a {
+    color: #494949;
+    display: block;
+    padding: 25px 20px;
+    background: #e9e9e9;
+}
+
+.contenedor-menu .menu li a:hover {
+    background: #1a95d5;
+    color: #fff;
+}
+
+.contenedor-menu .menu .icono {
+    font-size: 25px;
+    line-height: 18px;
+}
+
+.contenedor-menu .menu .icono.izquierda {
+    float: left;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.contenedor-menu .menu ul {
+    display: none;
+}
+
+.contenedor-menu .menu ul li a {
+    background: #424242;
+    color: #e9e9e9;
+}
+
+.contenedor-menu .menu .activado > a {
+    background: #1a95d5;
+    color: #fff;
+}
+
+@media screen and (max-width: 912px) {
+    .btn-menu {
+        display: block;
+        padding: 30px;
+        background: #0d2c44;
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    .btn-menu .icono {
+        float: right;
+        padding-right: 20px;
+    }
+    
+    .contenedor-menu .menu li a {
+        color: #494949;
+        display: block;
+        padding: 25px 10px;
+        background: #e9e9e9;
+        font-size: 25px;
+    }
+    
+    .contenedor-menu .menu .icono {
+        font-size: 25px;
+        line-height: 18px;
+    }
+    
+    .contenedor-menu .menu .icono .izquierda {
+        float: left;
+        margin-right: 10px;
+    }
+}
